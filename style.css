@@ -111,47 +111,30 @@ footer h4 {
 }
 
 
-@media screen and (max-width: 600px) {
-    h1 {
-        font-size: 28px;
+@media (max-width: 767px) {
+    body {
+      font-size: 16px;
     }
-
+  
+    h1 {
+      font-size: 24px;
+    }
+  
     form,
     #result {
-        width: 90%;
+      width: 100%;
+      padding: 20px;
     }
-
+  
     input[type="text"],
     button {
-        max-width: 90%;
+      font-size: 16px;
+      max-width: none;
     }
-
+  
     footer {
-        font-size: 12px;
+      font-size: 12px;
+      padding: 5px;
     }
-}
-
-@media screen and (max-width: 400px) {
-    h1 {
-        font-size: 24px;
-    }
-
-    form,
-    #result {
-        padding: 20px 10px;
-    }
-
-    input[type="text"],
-    button {
-        font-size: 16px;
-    }
-
-    .ct {
-        font-size: 20px;
-    }
-
-    footer {
-        font-size: 10px;
-        padding: 5px;
-    }
-}
+  }
+  
